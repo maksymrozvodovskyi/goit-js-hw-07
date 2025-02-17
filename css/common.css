@@ -96,7 +96,10 @@ input {
   flex-wrap: wrap;
   gap: 48px 24px;
   list-style-type: none;
-  padding: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .gallery-item {
@@ -114,6 +117,8 @@ input {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  margin-top: 24px;
+  margin-left: 24px;
 }
 
 .input-user:hover {
@@ -131,4 +136,6 @@ input {
   line-height: 1.33333;
   letter-spacing: 0.04em;
   color: #2e2f42;
+  margin-top: 16px;
+  margin-left: 24px;
 }
